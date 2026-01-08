@@ -1,0 +1,51 @@
+\documentclass{ctexart}
+\usepackage{booktabs}  % 三线表必备包
+\begin{document}
+	%LaTeX快速手册
+	
+	% 左侧表格（占页面宽度的45%）
+	\begin{minipage}{0.5\textwidth}
+		\centering  % 表格在minipage内居中
+		\begin{tabular}{c | c}  
+			\toprule
+			LaTeX命令 & 希腊字母符号 \\
+			\midrule
+			\verb|\alpha| & $\alpha$ \\
+			\verb|\beta| & $\beta$ \\
+			\verb|\gamma| & $\gamma$ \\
+			\verb|\delta| & $\delta$ \\
+			\verb|\epsilon| & $\epsilon$ \\
+			\verb|\zeta| & $\zeta$ \\
+			\verb|\eta|&$\eta$\\
+			\verb|\iota|&$\iota$\\
+			\verb|\kappa|&$\kappa$\\
+			\verb|\lambda|&$\lambda$\\
+			\verb|\mu|&$\mu$\\
+			
+			\bottomrule
+		\end{tabular}
+	\end{minipage}
+	\hfill  % 左右表格之间填充空白（自动撑满间距）
+	% 右侧表格（占页面宽度的45%）
+	\begin{minipage}{0.5\textwidth}
+		\centering  % 表格在minipage内居中
+		\begin{tabular}{c | c}  
+			\toprule
+			LaTeX命令 & 希腊字母符号 \\
+			\midrule
+			\verb|A| & $A$ \\
+			\verb|\beta| & $\beta$ \\
+			\verb|\gamma| & $\Gamma$ \\
+			\verb|\delta| & $\Delta$ \\
+			\verb|\epsilon| & $\epsilon$ \\
+			\verb|\zeta| & $\zeta$ \\
+			\verb|\eta|&$\eta$\\
+			\verb|\iota|&$\iota$\\
+			\verb|\kappa|&$\kappa$\\
+			\verb|\lambda|&$\Lambda$\\
+			\verb|\mu|&$\mu$\\
+			\bottomrule
+		\end{tabular}
+	\end{minipage}
+	
+\end{document}
